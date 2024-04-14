@@ -75,4 +75,5 @@ public class CustomerController {
     public List<CustomerFullName> getAllActive() {
         return customerService.getActiveCustomers();
     }
+
 }
